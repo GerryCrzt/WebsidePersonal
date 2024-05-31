@@ -1,0 +1,70 @@
+@importurl('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400..500;0,600;1,700&display=swap');
+
+:root{
+  --rf-brand:#fb8d19;
+  --rf-brand-rgb:248,54,145;
+  --rf-dark:#212237;
+  --rf-body:#989898;
+  --f-main"raleway",sans-serif;
+  --transtion:all.6s cubic-beizer(165,84,44,1);
+  --shadow:0px,15px,30px,rgna(0,0,0,0,1)
+}
+
+body {
+  font-family: var(--f-main);
+  color: var(--rf-dark);
+  line-height: 1.8 ;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
+  font-weight: 700;
+  color: var(--GW-dark);
+  font-family: var(--f-main);8
+}
+.text-brand {
+  color: var(--rf-brand);
+}
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.but {
+  background-color:  var(--rf-brand);
+}
+#home {
+  background-image: url(Gerry.jpg);
+  background-position: center;
+  background-size: 1000px;
+}
+
+.btn-brand {
+  background-color: var(--rf
+    -brand);
+}
+
+.section-padding {
+  padding-top:120px;
+  padding-bottom: 120px;
+}
+.selection-tittle {
+  max-width: 550px;
+  margin:0 auto 60px auto;
+}
+
+.selection-tittle .line {
+  width: 60px;
+  height: 2px;
+  background-color: var(--rf-brand);
+  display: inline-block;
+}
+
+.about-icon{
+  width: 60px;
+  height :60px;
+  background-color: var(--rf-brand);
+  color: yellow;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
